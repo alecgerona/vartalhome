@@ -1,4 +1,21 @@
 #logo {
     padding-left: 5%;
-    padding-top: 2%;
+}
+
+#mainMessage {
+    font-family: 'Raleway', sans-serif;
+    font-size: 500%;
+}
+
+.message {
+    font-family: 'Raleway', sans-serif;
+}
+
+.font-big {
+    font-size: 110%;
+}
+
+@font-face {
+    font-family: league;
+    src: url("../font/LeagueGothic-Regular.otf");
 }
