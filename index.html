@@ -14,6 +14,11 @@
             <nav>
                 <div class="nav-wrapper white">
                     <img class ="brand-logo" src="images/vartaltech_logo.png"> 
+                    <ul id="nav-mobile" class="right hide-on-med-and-down">
+                    <li><a class ="black" href="#first">Sass</a></li>
+                    <li><a class ="black" href="#second">Components</a></li>
+                    <li><a class ="black" href="collapsible.html">JavaScript</a></li>
+                    </ul>
                 </div>
             </nav>
         </div>
@@ -30,7 +35,14 @@
             </div>
         </div>
         <div class="parallax-container">
-            <div class="parallax"><img src="images/sony.png"></div>
+            <div class="section scrollspy" id="first">
+                <div class="parallax"><img src="images/sony.png"></div>
+            </div>
+        </div>
+        <div class="parallax-container">
+            <div class="section scrollspy" id="second">
+                <div class="parallax"><img src="images/hearts.png"></div>
+            </div>
         </div>
         
         
@@ -40,10 +52,6 @@
       
       <script type="text/javascript" src="js/jquery-2.2.4.min.js"></script>
       <script type="text/javascript" src="js/materialize.min.js"></script>
-      <script type="text/javascript">
-      $(document).ready(function(){
-      $('.parallax').parallax();
-    });
-      </script>
+      <script type="text/javascript" src="js/logic.js"></script>
     </body>
   </html>
