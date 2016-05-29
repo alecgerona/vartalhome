@@ -3,12 +3,12 @@
 }
 
 #mainMessage {
-    font-family: 'Raleway', sans-serif;
+    font-family: myriad;
     font-size: 500%;
 }
 
 .message {
-    font-family: 'Raleway', sans-serif;
+    font-family: myriad_appletext;
 }
 
 .font-big {
@@ -26,6 +26,10 @@
 
 
 @font-face {
-    font-family: league;
-    src: url("../font/LeagueGothic-Regular.otf");
+    font-family: 'myriad_appletext';
+    src: url('myriadat-webfont.woff2') format('woff2'),
+         url('myriadat-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
 }
