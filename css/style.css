@@ -23,7 +23,37 @@ html, body {
     overflow-x: hidden;
 }
 
+@media only screen and (max-width: 647px) {
 
+   .font-larger{
+       font-size: 5.5em;
+   }
+
+}
+
+@media only screen and (max-width: 560px) {
+
+   .font-larger{
+       font-size: 5em;
+   }
+
+}
+
+@media only screen and (max-width: 423px) {
+
+   .font-larger{
+       font-size: 4.5em;
+   }
+
+}
+
+@media only screen and (max-width: 381px) {
+
+   .font-larger{
+       font-size: 4em;
+   }
+
+}
 
 @font-face {
     font-family: 'myriad_appletext';
