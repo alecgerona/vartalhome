@@ -2,11 +2,6 @@
     padding-left: 5%;
 }
 
-#mainMessage {
-    font-family: myriad;
-    font-size: 500%;
-}
-
 .message {
     font-family: myriad_appletext;
 }
@@ -19,10 +14,15 @@
     font-size: 150%;
 }
 
-#float-div {
-    padding: 0;
-    margin: 0;
+.font-larger {
+    font-size: 6em;
 }
+
+
+html, body {
+    overflow-x: hidden;
+}
+
 
 
 @font-face {
